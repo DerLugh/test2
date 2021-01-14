@@ -1,5 +1,13 @@
 package net.pullquest;
 
-public class FirstTest {
+import org.junit.Test;
+
+public class FirstTest extends WebDriverSettings{
     @Test
+
+    public void firstTest () {
+        driver.get("https://dev.pullquest.net/compilations");
+    }
+
+
 }
